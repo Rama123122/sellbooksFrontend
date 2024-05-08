@@ -1,0 +1,38 @@
+{
+    "routes":{
+        
+            "src":"/admin/dashboard",
+            "dest":"/",
+            "children" : [
+              {
+                "src":"/admin/dashboard",
+                "dest":"/"
+              },
+              {
+                "src":"/admin/dashboard/upload",
+                "dest":"/"
+              },
+              {
+                "src":"/admin/dashboard/manage",
+                "dest":"/"
+              },
+              {
+                "src":"/admin/dashboard/edit-books/:id",
+                "dest":"/"
+              },
+            ]
+          },
+          {
+            "src":"/sign-up",
+            "dest":"/"
+          }
+          {
+            "src":"/login",
+            "dest":"/"
+          }
+          {
+            "src":"/logout",
+            "dest":"/"
+          },
+    },
+}
